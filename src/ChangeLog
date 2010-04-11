@@ -1,0 +1,28 @@
+3/2/2010 v0.0.10
+ - Vaadin 6.2.3
+ - AMTools should read/write UTF-8 files
+ - Close database connection when terminating app
+ - Login form
+   - Pressing return in password textfield to initiate session
+   - LoginInfo chosen randomly between available classes
+ - TeacherMainLayout
+   - name, surname1, surname2 column order
+   - Change password through modal window
+ - Fixed debug problems with layouts
+ - Production mode true
+
+1/9/2010 v0.0.9
+ - Vaadin 6.2.1
+ - The checkboxes switch enabled/disabled state according to logical options
+ 	- Miss -> Disables: Excused, Delay, Expulsion
+ 	- Excused -> Disables: Miss, Delay, Expulsion
+ 	- Delay -> Disables: Miss, Justified
+ 	- Expulsion -> Disables: Miss, Excused
+
+1/7/2010 v0.0.8
+ - NewTeacherMainLayout allows to manage misses, delays, and expulsions
+ - Localization complete for ES
+ - Autentication
+ - Allows teachers to change his own password
+ - Passwords are stored in database as a lowercase string with the hexvalues of SHA1(password)
+ - AGPLv3

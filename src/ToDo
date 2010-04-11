@@ -1,0 +1,2 @@
+- Bug: LoginLayout. Twice invocations of valuechange()/commit() textfield password.
+  Twice events are generated. Maybe vaading 6.2.2 bug ?
